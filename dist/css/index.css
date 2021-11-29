@@ -265,6 +265,12 @@ h6 {
           align-items: center;
   margin: 0 0 51px 0;
 }
+@media (max-width: 1024px) {
+  .hSection2 {
+    height: auto;
+    padding: 60px 0 50px 0;
+  }
+}
 .hSection2Title {
   max-width: 765px;
   font-family: "Poppins";
@@ -275,7 +281,13 @@ h6 {
   text-align: center;
   letter-spacing: 0.2px;
   color: #000000;
-  margin: 0 0 105px 0;
+  margin: 0 0 75px 0;
+}
+@media (max-width: 1024px) {
+  .hSection2Title {
+    max-width: 290px;
+    margin: 0 0 13px 0;
+  }
 }
 .hSection2Blocks {
   width: 100%;
@@ -288,6 +300,19 @@ h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+@media (max-width: 1024px) {
+  .hSection2Blocks {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 11.66vw;
+  }
 }
 .hSection2Block {
   width: 25.33vw;
@@ -314,6 +339,18 @@ h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 32px 0;
+}
+@media (max-width: 1024px) {
+  .hSection2Block {
+    width: 100%;
+    min-width: 310px;
+    max-width: 401px;
+    height: 404px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 .hSection2BlockLogo1 {
   width: 70px;
@@ -323,6 +360,12 @@ h6 {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+@media (max-width: 1024px) {
+  .hSection2BlockLogo1 {
+    width: 70px;
+    height: 66px;
+  }
+}
 .hSection2BlockLogo3 {
   width: 64.44px;
   height: 91.09px;
@@ -330,6 +373,12 @@ h6 {
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+@media (max-width: 1024px) {
+  .hSection2BlockLogo3 {
+    width: 64px;
+    height: 56.73px;
+  }
 }
 .hSection2BlockTitle {
   font-family: "Poppins";
@@ -368,6 +417,12 @@ h6 {
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+@media (max-width: 1024px) {
+  .hSection2BlockColorLogo {
+    width: 68px;
+    height: 68px;
+  }
 }
 .hSection2BlockColorTitle {
   color: #FFFFFF;
