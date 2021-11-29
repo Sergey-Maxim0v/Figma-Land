@@ -8,6 +8,10 @@
   align-items: center;
   padding: 0 11.94% 0 11.37%;
   color: $color_white;
+
+  @include media(tablet-lg) {
+    padding: 25px 24px;
+  }
   &Logo {
     display: block;
     height: 78px;
@@ -16,8 +20,18 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+
+    @include media(tablet-lg) {
+      height: 52px;
+      width: 120px;
+      margin: 0 auto 0 0;
+    }
   }
   &Links {
+        
+    @include media(tablet-lg) {
+      display: none;
+    }
     &Link {
       color: $color_white;
       margin: 0 25px;
@@ -25,7 +39,9 @@
   }
   &Button {
     height: 52px;
-    width: 153px;
+    width: 22.94%;
+    max-width: 153px;
+    min-width: 65px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,5 +50,20 @@
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
     border-radius: 39px;
+  }
+  &Burger{
+    display: none;
+    cursor: pointer;
+    height: 53px;
+    width: 66px;
+    background-image: url(../../assets/images/logo-white-burger.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    @include media(tablet-lg) {
+      display: block;
+      margin: 0 0 0 5.16%;
+    }
   }
 }

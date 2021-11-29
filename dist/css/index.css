@@ -129,6 +129,11 @@ h6 {
   padding: 0 11.94% 0 11.37%;
   color: #FFFFFF;
 }
+@media (max-width: 1024px) {
+  .headerWhite {
+    padding: 25px 24px;
+  }
+}
 .headerWhiteLogo {
   display: block;
   height: 78px;
@@ -138,13 +143,27 @@ h6 {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+@media (max-width: 1024px) {
+  .headerWhiteLogo {
+    height: 52px;
+    width: 120px;
+    margin: 0 auto 0 0;
+  }
+}
+@media (max-width: 1024px) {
+  .headerWhiteLinks {
+    display: none;
+  }
+}
 .headerWhiteLinksLink {
   color: #FFFFFF;
   margin: 0 25px;
 }
 .headerWhiteButton {
   height: 52px;
-  width: 153px;
+  width: 22.94%;
+  max-width: 153px;
+  min-width: 65px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -161,6 +180,22 @@ h6 {
   -webkit-filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
   border-radius: 39px;
+}
+.headerWhiteBurger {
+  display: none;
+  cursor: pointer;
+  height: 53px;
+  width: 66px;
+  background-image: url(../../assets/images/logo-white-burger.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+@media (max-width: 1024px) {
+  .headerWhiteBurger {
+    display: block;
+    margin: 0 0 0 5.16%;
+  }
 }
 
 .footer {
