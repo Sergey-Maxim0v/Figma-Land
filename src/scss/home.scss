@@ -7,6 +7,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+
+  @include media(tablet-lg) {
+    height: auto;
+    padding: 187px 0 50px 0;
+  }
   &Title {
     width: 651px;
     margin: 0 0 27px 0;
@@ -18,6 +23,14 @@
     text-align: center;
     letter-spacing: 0.2px;
     color: $color_white;
+
+    @include media(tablet-lg) {
+      font-size: $font-size__46;
+      line-height: 57px;
+      line-height: 65px;
+      width: auto;
+      padding: 0 18vw;
+    }
   }
   &Text {
     margin: 0 0 61px 0;
@@ -29,15 +42,24 @@
     text-align: center;
     letter-spacing: 0.2px;
     color: $color_light-gray;
+        
+    @include media(tablet-lg) {
+      margin: 0 0 55px 0;
+    }
   }
   &Buttons {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 0 101px 0;
+    
+    @include media(tablet-lg) {
+      flex-direction: column;
+      margin: 0 0 95px 0;
+    }
   }
   &Button {
-    margin: 0 7px;
+    margin: 7px 7px;
     height: 52px;
     width: 180px;
     border-radius: 39px;
@@ -51,19 +73,24 @@
     font-size: $font-size__16;
     line-height: 16px;
     letter-spacing: 0.2px;
+        
+    @include media(tablet-lg) {
+      width: 252px;
+
+    }
     &Start {
       color: $color_dark-blue;
       background: $color_white;
       box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
     }
     &Try {
-      border: 1px solid #FFFFFF;
+      border: 1px solid #ffffff;
       box-sizing: border-box;
       color: $color_white;
       filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
     }
   }
-  &Picture{
+  &Picture {
     width: 64.5vw;
     height: 38.41vw;
     max-height: 610px;
@@ -71,5 +98,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto 100%;
+    
+    @include media(tablet-lg) {
+      width: 69.6vw;
+      min-width: 310px;
+      height: 42.83vw;
+      min-height: 200px;
+    }
   }
 }
