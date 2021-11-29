@@ -273,14 +273,6 @@ h6 {
 }
 .hSection2Title {
   max-width: 765px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 46px;
-  line-height: 57px;
-  text-align: center;
-  letter-spacing: 0.2px;
-  color: #000000;
   margin: 0 0 75px 0;
 }
 @media (max-width: 1024px) {
@@ -432,6 +424,100 @@ h6 {
 }
 .hSection2BlockColorLink {
   color: #FFFFFF;
+}
+
+.hSection3 {
+  width: 100%;
+  height: 706px;
+  margin: 0 0 51px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.hSection3Contein {
+  width: 31.9vw;
+  height: 317px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.hSection3Text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #5C5C5C;
+}
+.hSection3Buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  height: auto;
+}
+.hSection3Button {
+  width: 210px;
+  height: 52px;
+  -webkit-box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 22px 0 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+.hSection3ButtonSign {
+  background: #03D6F3;
+  color: #FFFFFF;
+}
+.hSection3ButtonFind {
+  border: 1px solid #30D7BA;
+  color: #30D7BA;
+}
+.hSection3Picture {
+  width: 32.6vw;
+  height: 30.7vw;
+  background-image: url(../../assets/images/img-home-pages.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .headerWhite {
@@ -721,4 +807,15 @@ h6 {
 
 body {
   font-family: "Poppins";
+}
+
+.title2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #000000;
 }

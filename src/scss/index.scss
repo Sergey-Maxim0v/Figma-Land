@@ -13,5 +13,15 @@
 // Common style
 body{
   font-family: $font-main;
+}
 
+.title2{
+  font-family: $font-main;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $font-size__46;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: $color_black;
 }
