@@ -439,6 +439,21 @@ h6 {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  position: relative;
+}
+@media (max-width: 1024px) {
+  .hSection3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 0 47px 0;
+    height: auto;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 0 0 309px 0;
+  }
 }
 .hSection3Contein {
   width: 31.9vw;
@@ -456,6 +471,16 @@ h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+@media (max-width: 1024px) {
+  .hSection3Contein {
+    width: 100%;
+    min-width: 310px;
+    height: 317px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
 }
 .hSection3Text {
   font-family: "Poppins";
@@ -478,6 +503,16 @@ h6 {
           justify-content: flex-start;
   width: 100%;
   height: auto;
+}
+@media (max-width: 1024px) {
+  .hSection3Buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    bottom: 0;
+  }
 }
 .hSection3Button {
   width: 210px;
@@ -503,6 +538,11 @@ h6 {
   letter-spacing: 0.2px;
   cursor: pointer;
 }
+@media (max-width: 1024px) {
+  .hSection3Button {
+    margin: 0 0px 22px 0;
+  }
+}
 .hSection3ButtonSign {
   background: #03D6F3;
   color: #FFFFFF;
@@ -518,6 +558,12 @@ h6 {
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+@media (max-width: 1024px) {
+  .hSection3Picture {
+    width: 100vw;
+    height: 395px;
+  }
 }
 
 .headerWhite {
