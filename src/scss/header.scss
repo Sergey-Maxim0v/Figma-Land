@@ -28,13 +28,19 @@
     }
   }
   &Links {
-        
     @include media(tablet-lg) {
       display: none;
     }
     &Link {
       color: $color_white;
       margin: 0 25px;
+      font-family: $font-main;
+      font-style: normal;
+      font-weight: normal;
+      font-size: $font-size__15;
+      line-height: 27px;
+      text-align: center;
+      letter-spacing: 0.2px;
     }
   }
   &Button {
@@ -50,8 +56,15 @@
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
     border-radius: 39px;
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: 500;
+    font-size: $font-size__16;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: $color_white;
   }
-  &Burger{
+  &Burger {
     display: none;
     cursor: pointer;
     height: 53px;
@@ -60,7 +73,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    
+
     @include media(tablet-lg) {
       display: block;
       margin: 0 0 0 5.16%;
