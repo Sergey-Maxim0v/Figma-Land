@@ -7,9 +7,11 @@
 @import "home";
 
 // Blocks
+@import "header";
+@import "footer";
 
 // Common style
 body{
   font-family: $font-main;
-  
+
 }
