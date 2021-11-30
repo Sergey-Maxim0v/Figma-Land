@@ -47,6 +47,8 @@
 
     @include media(tablet-lg) {
       margin: 0 0 55px 0;
+      width: 88.53vw;
+      min-width: 310px;
     }
   }
   &Buttons {
@@ -261,6 +263,10 @@
     font-weight: bold;
     font-size: $font-size__16;
     line-height: 20px;
+    @include media(tablet-lg) {
+      width: 88.53vw;
+      min-width: 310px;
+    }
   }
   &Buttons {
     display: flex;
@@ -540,6 +546,10 @@
         font-size: $font-size__30;
         line-height: 33px;
         letter-spacing: 0.1px;
+
+        @include media(tablet-lg) {
+          right: 60px;
+        }
       }
       &::after {
         content: "Per/ month";
@@ -551,6 +561,11 @@
         font-size: $font-size__12;
         line-height: 18px;
         letter-spacing: 0.1px;
+        color: $color_gray;
+
+        @include media(tablet-lg) {
+          right: 15px;
+        }
       }
     }
     &List {
@@ -579,7 +594,7 @@
   width: 54.83vw;
   border: 1px solid $color_gray-line;
   height: 1px;
-  
+
   @include media(tablet-lg) {
     width: 80vw;
   }
@@ -595,7 +610,7 @@
   }
   &Text {
     margin: 0 0 69px 0;
-    
+
     @include media(tablet-lg) {
       max-width: 310px;
       text-align: center;
@@ -605,10 +620,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-      
-  @include media(tablet-lg) {
-    flex-direction: column;
-  }
+
+    @include media(tablet-lg) {
+      flex-direction: column;
+    }
   }
   &Input {
     width: 284px;
@@ -623,7 +638,7 @@
     font-size: $font-size__15;
     line-height: 24px;
     padding: 0 25px;
-        
+
     @include media(tablet-lg) {
       width: 92.35vw;
     }
@@ -635,7 +650,7 @@
     background: $color_blue;
     color: $color_white;
     margin: 6px 5px;
-            
+
     @include media(tablet-lg) {
       width: 92.35vw;
       border-radius: 6px;

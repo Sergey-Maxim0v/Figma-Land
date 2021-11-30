@@ -497,6 +497,8 @@ body {
 @media (max-width: 1024px) {
   .hSection1Text {
     margin: 0 0 55px 0;
+    width: 88.53vw;
+    min-width: 310px;
   }
 }
 .hSection1Buttons {
@@ -790,6 +792,12 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+}
+@media (max-width: 1024px) {
+  .hSection3Text {
+    width: 88.53vw;
+    min-width: 310px;
+  }
 }
 .hSection3Buttons {
   display: -webkit-box;
@@ -1156,6 +1164,11 @@ body {
   line-height: 33px;
   letter-spacing: 0.1px;
 }
+@media (max-width: 1024px) {
+  .hSection6BlockPrice::before {
+    right: 60px;
+  }
+}
 .hSection6BlockPrice::after {
   content: "Per/ month";
   position: absolute;
@@ -1166,6 +1179,12 @@ body {
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0.1px;
+  color: #5C5C5C;
+}
+@media (max-width: 1024px) {
+  .hSection6BlockPrice::after {
+    right: 15px;
+  }
 }
 .hSection6BlockList {
   font-family: "Poppins";
