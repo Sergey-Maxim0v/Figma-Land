@@ -426,7 +426,7 @@
     }
   }
 }
-.hSection5{
+.hSection5 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -454,20 +454,19 @@
       align-items: center;
     }
   }
-  &Title{
+  &Title {
     margin: 0 0 47px 0;
     text-align: left;
-    
+
     @include media(tablet-lg) {
       text-align: center;
     }
   }
-  &Text{
+  &Text {
     margin: 0 0 37px 0;
-        
+
     @include media(tablet-lg) {
       text-align: center;
-
     }
   }
   &Picture {
@@ -483,4 +482,156 @@
       height: 85.31vw;
     }
   }
+}
+.hSection6 {
+  width: 100%;
+  height: auto;
+  margin: 0 0 51px 0;
+  padding: 50px 0;
+  &Title {
+    margin: 0 0 30px 0;
+  }
+  &Text {
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $font-size__18;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: $color_gray;
+    margin: 0 0 60px 0;
+  }
+  &Contein {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    padding: 0 10.2vw;
+  }
+  &Block {
+    height: auto;
+    width: 335px;
+    background: $color_white;
+    border: 1px solid $color_de-gray;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 40px;
+    &Title {
+      font-family: $font-main;
+      font-style: normal;
+      font-weight: bold;
+      font-size: $font-size__30;
+      line-height: 33px;
+      text-align: center;
+      letter-spacing: 0.1px;
+      color: $color_black;
+      margin: 0 0 10px 0;
+    }
+    &Text {
+      font-family: $font-subtitle;
+      font-style: normal;
+      font-weight: bold;
+      font-size: $font-size__12;
+      line-height: 18px;
+      letter-spacing: 0.1px;
+      color: $color_gray;
+      text-align: center;
+      margin: 0 0 30px 0;
+    }
+    &Img {
+      width: 259px;
+      height: 448px;
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      margin: 0 0 27.5px 0;
+    }
+    &Img1 {
+      background-image: url(../../assets/images/img-home-peoples.svg);
+    }
+    &Img2 {
+      background-image: url(../../assets/images/img-home-man.svg);
+    }
+    &Img3 {
+      background-image: url(../../assets/images/img-home-spaceman.svg);
+    }
+    &Price {
+      font-family: $font-main;
+      font-style: normal;
+      font-weight: 900;
+      font-size: $font-size__55;
+      line-height: 65px;
+      letter-spacing: 0.2px;
+      color: $color_blue-green;
+      text-align: center;
+      position: relative;
+      margin: 0 0 37.5px 0;
+      &::before {
+        content: "$";
+        position: absolute;
+        right: 70px;
+        font-family: $font-main;
+        font-style: normal;
+        font-weight: bold;
+        font-size: $font-size__30;
+        line-height: 33px;
+        letter-spacing: 0.1px;
+      }
+      &::after {
+        content: "Per/ month";
+        position: absolute;
+        right: 25px;
+        bottom: 10px;
+        font-family: $font-subtitle;
+        font-style: normal;
+        font-weight: bold;
+        font-size: $font-size__12;
+        line-height: 18px;
+        letter-spacing: 0.1px;
+        color: $color_gray;
+      }
+    }
+    &List {
+      font-family: $font-main;
+      font-style: normal;
+      font-weight: normal;
+      font-size: $font-size__15;
+      line-height: 27px;
+      letter-spacing: 0.2px;
+      color: $color_gray;
+      text-align: center;
+      margin: 0 0 40px 0;
+      & li {
+        display: inline-block;
+        margin: 10px 0;
+      }
+      &B {
+        color: $color_black;
+      }
+    }
+    &Button {
+      width: 251px;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: $color_blue;
+      box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+      border-radius: 39px;
+      font-family: $font-main;
+      font-style: normal;
+      font-weight: 500;
+      font-size: $font-size__16;
+      line-height: 16px;
+      letter-spacing: 0.2px;
+      color: $color_white;
+      cursor: pointer;
+    }
+  }
+}
+.hLine {
+  margin: 0 auto 51px auto;
+  width: 54.83vw;
+  border: 1px solid $color_gray-line;
+  height: 1px;
 }

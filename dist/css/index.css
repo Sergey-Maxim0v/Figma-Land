@@ -1062,3 +1062,170 @@ body {
     height: 85.31vw;
   }
 }
+
+.hSection6 {
+  width: 100%;
+  height: auto;
+  margin: 0 0 51px 0;
+  padding: 50px 0;
+}
+.hSection6Title {
+  margin: 0 0 30px 0;
+}
+.hSection6Text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #5C5C5C;
+  margin: 0 0 60px 0;
+}
+.hSection6Contein {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 10.2vw;
+}
+.hSection6Block {
+  height: auto;
+  width: 335px;
+  background: #FFFFFF;
+  border: 1px solid #dedede;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  padding: 40px;
+}
+.hSection6BlockTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #000000;
+  margin: 0 0 10px 0;
+}
+.hSection6BlockText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #5C5C5C;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+.hSection6BlockImg {
+  width: 259px;
+  height: 448px;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 0 27.5px 0;
+}
+.hSection6BlockImg1 {
+  background-image: url(../../assets/images/img-home-peoples.svg);
+}
+.hSection6BlockImg2 {
+  background-image: url(../../assets/images/img-home-man.svg);
+}
+.hSection6BlockImg3 {
+  background-image: url(../../assets/images/img-home-spaceman.svg);
+}
+.hSection6BlockPrice {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+  color: #30D7BA;
+  text-align: center;
+  position: relative;
+  margin: 0 0 37.5px 0;
+}
+.hSection6BlockPrice::before {
+  content: "$";
+  position: absolute;
+  right: 70px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+.hSection6BlockPrice::after {
+  content: "Per/ month";
+  position: absolute;
+  right: 25px;
+  bottom: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #5C5C5C;
+}
+.hSection6BlockList {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  color: #5C5C5C;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+.hSection6BlockList li {
+  display: inline-block;
+  margin: 10px 0;
+}
+.hSection6BlockListB {
+  color: #000000;
+}
+.hSection6BlockButton {
+  width: 251px;
+  height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #03D6F3;
+  -webkit-box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 39px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.hLine {
+  margin: 0 auto 51px auto;
+  width: 54.83vw;
+  border: 1px solid #CDCDCD;
+  height: 1px;
+}
