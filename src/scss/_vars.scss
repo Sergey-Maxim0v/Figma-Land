@@ -12,8 +12,6 @@ $font-size__16: 16px;
 $font-size__15: 15px;
 $font-size__12: 12px;
 
-// Paddings
-
 // Colors
 $color_dark-blue: #112D57;
 $color_white: #FFFFFF;
@@ -24,10 +22,11 @@ $color_blue-green: #30D7BA;
 $color_light-gray: #e5e5e5;
 $color_de-gray: #dedede;
 $color_gray-line: #CDCDCD;
-$color_gray-gray-inputbrdr: #d0d0d0;
-$color_gray-gray-input: #d0d0d0;
+$color_gray-inputbrdr: #d0d0d0;
+$color_gray-input: #efefef;
 
 // Gradients
 $grad-home_Background: linear-gradient(230.95deg, #cb1ae8 -0.37%, #37bda6 100%);
 
 // Shadows
+$box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
