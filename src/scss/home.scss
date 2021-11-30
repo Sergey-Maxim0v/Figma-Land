@@ -260,7 +260,7 @@
     margin: 0 0 47px 0;
     height: auto;
     justify-content: flex-start;
-    padding: 0 0 309px 0;
+    padding: 0 0 200px 0;
   }
   &Contein {
     width: 31.9vw;
@@ -338,7 +338,91 @@
 
     @include media(tablet-lg) {
       width: 100vw;
-      height: 395px;
+      height: 85.31vw;
+    }
+  }
+}
+.hSection4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 0 51px 0;
+  padding: 0 13.33vw;
+  position: relative;
+
+  @include media(tablet-lg) {
+    flex-direction: column-reverse;
+    padding: 0 0 100px 0;
+
+  }
+  &Picture {
+    width: 32.6vw;
+    height: 34.98vw;
+    background-image: url(../../assets/images/img-home-tasks.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+  @include media(tablet-lg) {
+    width: 88.53vw;
+    min-width: 310px;
+    height: 74vw;
+    background-size: auto 100%;
+  }
+  }
+
+  &Contein {
+    width: 34.37vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+      
+    @include media(tablet-lg) {
+      width: 88.53vw;
+      min-width: 310px;
+    }
+  }
+
+  &Title {
+    text-align: left;
+    margin: 0 0 37px 0;
+  }
+
+  &Text {
+    margin: 0 0 37px 0;
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $font-size__16;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: $color_gray;
+  }
+
+  &Button {
+    width: 147px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: $color_blue;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 39px;
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: 500;
+    font-size: $font-size__16;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: $color_white;
+          
+    @include media(tablet-lg) {
+      align-self: center;
+      position: absolute;
+      bottom: 0;
     }
   }
 }

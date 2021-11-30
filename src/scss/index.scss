@@ -3,9 +3,6 @@
 @import "./mixins";
 @import "./cleancing";
 
-// Pages
-@import "home";
-
 // Blocks
 @import "header";
 @import "footer";
@@ -25,3 +22,6 @@ body{
   letter-spacing: 0.2px;
   color: $color_black;
 }
+
+// Pages
+@import "home";
