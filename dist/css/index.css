@@ -774,7 +774,7 @@ body {
 }
 @media (max-width: 1024px) {
   .hSection3Contein {
-    width: 100%;
+    width: 90vw;
     min-width: 310px;
     height: 317px;
     -webkit-box-pack: start;
@@ -801,7 +801,7 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  width: 100%;
+  width: auto;
   height: auto;
 }
 @media (max-width: 1024px) {
@@ -812,6 +812,9 @@ body {
             flex-direction: column;
     position: absolute;
     bottom: 0;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
 }
 .hSection3Button {
@@ -986,6 +989,18 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 0 51px 0;
+  position: relative;
+}
+@media (max-width: 1024px) {
+  .hSection5 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 72px 0 200px 0;
+    width: 100%;
+    min-width: 310px;
+  }
 }
 .hSection5Contein {
   width: 26.91vw;
@@ -1005,20 +1020,33 @@ body {
 }
 @media (max-width: 1024px) {
   .hSection5Contein {
-    width: 100%;
+    width: 75.33vw;
     min-width: 310px;
-    height: 317px;
+    height: auto;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 .hSection5Title {
   margin: 0 0 47px 0;
   text-align: left;
 }
+@media (max-width: 1024px) {
+  .hSection5Title {
+    text-align: center;
+  }
+}
 .hSection5Text {
   margin: 0 0 37px 0;
+}
+@media (max-width: 1024px) {
+  .hSection5Text {
+    text-align: center;
+  }
 }
 .hSection5Picture {
   width: 48.14vw;

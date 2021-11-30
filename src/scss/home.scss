@@ -271,7 +271,7 @@
     justify-content: space-between;
 
     @include media(tablet-lg) {
-      width: 100%;
+      width: 90vw;
       min-width: 310px;
       height: 317px;
       justify-content: flex-start;
@@ -290,13 +290,14 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 100%;
+    width: auto;
     height: auto;
 
     @include media(tablet-lg) {
       flex-direction: column;
       position: absolute;
       bottom: 0;
+      align-self: center;
     }
   }
   &Button {
@@ -430,6 +431,14 @@
   justify-content: space-around;
   align-items: center;
   margin: 0 0 51px 0;
+  position: relative;
+
+  @include media(tablet-lg) {
+    flex-direction: column;
+    padding: 72px 0 200px 0;
+    width: 100%;
+    min-width: 310px;
+  }
   &Contein {
     width: 26.91vw;
     display: flex;
@@ -438,18 +447,28 @@
     justify-content: space-between;
 
     @include media(tablet-lg) {
-      width: 100%;
+      width: 75.33vw;
       min-width: 310px;
-      height: 317px;
+      height: auto;
       justify-content: flex-start;
+      align-items: center;
     }
   }
   &Title{
     margin: 0 0 47px 0;
     text-align: left;
+    
+    @include media(tablet-lg) {
+      text-align: center;
+    }
   }
   &Text{
     margin: 0 0 37px 0;
+        
+    @include media(tablet-lg) {
+      text-align: center;
+
+    }
   }
   &Picture {
     width: 48.14vw;
