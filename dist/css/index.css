@@ -975,3 +975,62 @@ body {
     bottom: 0;
   }
 }
+
+.hSection5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 51px 0;
+}
+.hSection5Contein {
+  width: 26.91vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 1024px) {
+  .hSection5Contein {
+    width: 100%;
+    min-width: 310px;
+    height: 317px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+.hSection5Title {
+  margin: 0 0 47px 0;
+  text-align: left;
+}
+.hSection5Text {
+  margin: 0 0 37px 0;
+}
+.hSection5Picture {
+  width: 48.14vw;
+  height: 34.43vw;
+  background-image: url(../../assets/images/img-home-photo.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media (max-width: 1024px) {
+  .hSection5Picture {
+    width: 100vw;
+    height: 85.31vw;
+  }
+}
