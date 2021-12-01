@@ -61,3 +61,10 @@
   box-shadow: $mShadow;
   text-shadow: $mTshadow;
 }
+
+// Flex center
+@mixin flexCenter() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
