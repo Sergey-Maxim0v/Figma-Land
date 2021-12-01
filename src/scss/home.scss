@@ -65,13 +65,15 @@
     }
   }
   &Button {
-    margin: 7px 7px;
     width: 180px;
-    :hover{
-      width: 195px;
-      margin: 2px 2px;
+    &Contein{
+      margin: 7px 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 183px;
+      height: 54px;
     }
-
     @include media(tablet-lg) {
       width: 252px;
     }
@@ -79,12 +81,24 @@
       color: $color_dark-blue;
       background: $color_white;
       box-shadow: $box-shadow;
+      &:hover{
+        @include button(183, $boxshadow-hover-white, $text-shadow-dark)
+      }
+      &:active{
+        @include button(180, $boxshadow-active-white,none)
+      }
     }
     &Try {
       border: 1px solid #ffffff;
       box-sizing: border-box;
       color: $color_white;
       filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+      &:hover{
+        @include button(183, $boxshadow-hover-white, $text-shadow-white)
+      }
+      &:active{
+        @include button(180, $boxshadow-active-white,none)
+      }
     }
   }
   &Picture {
