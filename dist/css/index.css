@@ -412,6 +412,16 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 32px 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 10;
+}
+.hSection2Block:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
+  z-index: 20;
 }
 @media (max-width: 1024px) {
   .hSection2Block {
@@ -928,6 +938,16 @@ body {
           box-sizing: border-box;
   border-radius: 10px;
   padding: 40px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 10;
+}
+.hSection6Block:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
+  z-index: 20;
 }
 @media (max-width: 1024px) {
   .hSection6Block {
@@ -1130,13 +1150,39 @@ body {
           box-sizing: border-box;
   border-radius: 6px;
   margin: 6px 5px;
-  font-family: "Roboto";
+  font-family: "Poppins";
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 24px;
   padding: 0 25px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  color: #000000;
+}
+.hFormInput::-webkit-input-placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+}
+.hFormInput::-moz-placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+}
+.hFormInput:-ms-input-placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+}
+.hFormInput::-ms-input-placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+}
+.hFormInput::placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
 }
 .hFormInput:hover {
   -webkit-box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
