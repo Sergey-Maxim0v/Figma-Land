@@ -43,14 +43,23 @@
       text-align: center;
       letter-spacing: 0.2px;
       display: inline-block;
+      width: 63px;
       height: 30px;
-      border-bottom: rgba(0, 0, 0, 0) 1px solid;
+      border-bottom: rgba(255, 255, 255, 0) 1px solid;
       transition: all 0.3s;
       &This {
         border-bottom: $color_white 1px solid;
+        font-size: $font-size__16;
       }
       &:hover {
         border-bottom: $color_white 1px solid;
+        font-size: $font-size__16;
+        text-shadow: $text-shadow-white;
+      }
+      &:active {
+        border-bottom: $color_white 1px solid;
+        font-size: $font-size__15;
+        text-shadow: none;
       }
     }
   }
@@ -73,14 +82,22 @@
     letter-spacing: 0.2px;
     color: $color_white;
     &Contein {
-      width: 190px;
+      width: 185px;
 
       @include media(tablet-lg) {
         width: auto;
       }
     }
-    :hover {
-      width: 190px;
+    &:hover {
+      width: 183px;
+      box-shadow: $boxshadow-hover-white;
+      text-shadow: $text-shadow-white;
+    }
+    &:active{
+      box-shadow: $boxshadow-active-white;
+      text-shadow: none;
+      height: 52px;
+      width: 182px;
     }
 
     @include media(tablet-lg) {
