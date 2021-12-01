@@ -707,6 +707,7 @@
     }
     &:focus{
       box-shadow: $box-shadow;
+      background-color: $color_white;
     }
 
     @include media(tablet-lg) {

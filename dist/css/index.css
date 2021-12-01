@@ -1145,6 +1145,7 @@ body {
 .hFormInput:focus {
   -webkit-box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  background-color: #FFFFFF;
 }
 @media (max-width: 1024px) {
   .hFormInput {
