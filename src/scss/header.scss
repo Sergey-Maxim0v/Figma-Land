@@ -42,13 +42,21 @@
       line-height: 27px;
       text-align: center;
       letter-spacing: 0.2px;
+      display: inline-block;
+      height: 30px;
+      border-bottom: rgba(0, 0, 0, 0) 1px solid;
+      transition: all 0.3s;
+      &This {
+        border-bottom: $color_white 1px solid;
+      }
+      &:hover {
+        border-bottom: $color_white 1px solid;
+      }
     }
   }
   &Button {
     height: 52px;
-    width: 22.94%;
-    max-width: 153px;
-    min-width: 65px;
+    width: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,6 +72,22 @@
     line-height: 16px;
     letter-spacing: 0.2px;
     color: $color_white;
+    &Contein {
+      width: 190px;
+
+      @include media(tablet-lg) {
+        width: auto;
+      }
+    }
+    :hover {
+      width: 190px;
+    }
+
+    @include media(tablet-lg) {
+      width: 22.94%;
+      max-width: 153px;
+      min-width: 65px;
+    }
   }
   &Burger {
     display: none;

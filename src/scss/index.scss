@@ -3,10 +3,6 @@
 @import "./mixins";
 @import "./cleancing";
 
-// Blocks
-@import "header";
-@import "footer";
-
 // Common style
 body {
   font-family: $font-main;
@@ -43,7 +39,17 @@ body {
   line-height: 16px;
   letter-spacing: 0.2px;
   box-shadow: $box-shadow;
+  transition: all 0.2s;
+  &:hover{
+    width: 190px;
+    height: 60px;
+    font-size: $font-size__18;
+  }
 }
 
 // Pages
 @import "home";
+
+// Blocks
+@import "header";
+@import "footer";

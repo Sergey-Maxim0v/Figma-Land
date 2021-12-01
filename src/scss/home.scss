@@ -52,6 +52,7 @@
     }
   }
   &Buttons {
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,11 +61,16 @@
     @include media(tablet-lg) {
       flex-direction: column;
       margin: 0 0 95px 0;
+      height: 148px;
     }
   }
   &Button {
     margin: 7px 7px;
     width: 180px;
+    :hover{
+      width: 195px;
+      margin: 2px 2px;
+    }
 
     @include media(tablet-lg) {
       width: 252px;
