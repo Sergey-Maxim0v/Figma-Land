@@ -41,6 +41,13 @@
       height: 47px;
       margin: 0 2% 2% 0;
       color: $color_white;
+      transition: all 0.3s;
+      &:hover{
+        text-shadow: $text-shadow-white;
+      }
+      &:active{
+        text-shadow: $text-shadow-white-active;
+      }
 
       @include media(tablet-lg) {
         margin: 2% 0;
@@ -64,6 +71,14 @@
     background-position: center;
     background-size: auto 100%;
     border-radius: 22px;
+    transition: all 0.3s;
+    &:hover{
+      box-shadow: $boxshadow-hover-white;
+    }
+    &:active{
+      box-shadow: $boxshadow-active-white;
+      transform: scale(0.97);
+    }
 
     @include media(tablet-lg) {
       width: 310px;
@@ -119,6 +134,15 @@
         background-position: center;
         background-size: 100%;
         background-repeat: no-repeat;
+        transition: all 0.3s;
+        z-index: 10;
+        &:hover{
+          z-index: 20;
+          transform: scale(1.2);
+        }
+        &:active{
+          transform: scale(1.1);
+        }
       }
     }
     &Twit {
